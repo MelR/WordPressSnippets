@@ -1,0 +1,4 @@
+<picture>
+  <source srcset="<?php print get_avatar_url($user->ID, ['size' => '48']); ?>" media="(min-width: 992px)"/>
+  <img src="<?php print get_avatar_url($user->ID, ['size' => '36']); ?>"/>
+</picture>
